@@ -66,8 +66,9 @@ textarea {
 
 .nav {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: column; /* Если хочешь в колонку (как в сайдбаре) */
+  gap: 12px;              /* Вот этот отступ между ссылками */
+  margin-top: 20px;
 }
 
 .nav a {
